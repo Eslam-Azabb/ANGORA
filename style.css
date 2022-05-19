@@ -1,0 +1,337 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    line-height: 1.75em;
+}
+.special a{
+    font-size: 12px;
+    text-align: end;
+}
+.nav-h{
+    padding: 20px 0px;
+    width: 100%;
+    opacity: 0.5;
+    /* background-color: transparent !important; */
+
+}
+.navbar .container{
+    width: 100%;
+    padding: 0px;
+
+}
+.icon-nav{
+    color: white;
+}.pos-prv
+{
+    left: -120px;
+}
+.pos-next
+{
+    left: -120px;
+    top: 98px;
+}
+.cap
+{
+    font-size: 70px !important;
+    font-weight: 700;
+   
+   
+}
+.w-cost
+{
+    width:30%
+}
+
+.carousel-caption
+{
+    top: 40%;
+
+}
+.ani
+{
+    left: 100%; 
+    animation-name: move;
+    animation-duration: 10s;
+    
+}
+@keyframes move
+{
+    10%{left: 0;}
+    100%{left: 0%;}
+}
+
+/* Css About Section */
+.container h2{
+    font-weight: 700;
+    font-size: 45px;
+    margin: 30px 0px;
+}
+h2{
+    position: relative;
+}
+.b{
+    margin: auto;
+    display: flex;
+    border-bottom: 2px black solid;
+    width: 50px;
+    position: absolute;
+}
+.cust-1 h2::before{
+    content: 'A';
+    border-bottom: 2px black solid;
+    position: absolute;
+    color: rgba(94, 91, 91, 0.1);
+    width: 60px;
+    font-size: 80px;
+    bottom: 25%;
+    left: 47%;   
+    transition: width 1s;
+} 
+.text-center:hover h2::before{
+    width: 100px;
+} 
+.pb p{
+    font-size: 20px;
+    padding: 0px 190px; 
+    
+}
+.text-color p{
+    color: #999;
+}
+
+.height-bar{
+    height: 5px;
+}
+.w-80{
+    width: 80%;
+}
+.w-95{
+    width: 95%;
+}
+.w-85{
+    width: 85%;
+}
+.w-70{
+    width: 70%;
+}
+/* End Of Css About Section */
+/* Css Team Section */
+.b{
+    margin: auto;
+    display: flex;
+    border-bottom: 2px black solid;
+    width: 50px;
+    position: absolute;
+}
+.cust-2 h2::before{
+    content: 'O';
+    border-bottom: 2px black solid;
+    position: absolute;
+    color: rgba(94, 91, 91, 0.1);
+    width: 60px;
+    font-size: 80px;
+    bottom: 0px;
+    left: 47%;   
+    transition: width 1s;
+} 
+.text-center:hover h2::before{
+    width: 100px;
+}
+.col-md-3{
+    width: 25%;
+}
+.member{
+    background-color: white;
+}
+.member-img{
+    width: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.member .member-img img{
+    width: 100%;
+}
+.title{
+    font-weight: 600;
+    font-size: 20px;
+    margin: 0px;
+}
+.position{
+color: #666;
+}
+.social-pop{
+    border-radius: 3px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+.social-pop-icons{
+    background-color: tomato;
+    height: 100%;
+    text-align: center;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    opacity: 0;
+    transition: opacity 1s,transform 1s,1s;
+}
+.social-pop .member-img img{
+    transition:  transform 1s,1s ;
+}
+.social-pop-icons i{
+    margin-top: 50%;
+}
+.social-pop:hover .social-pop-icons{
+    opacity: 0.7;
+    transform: scale(1.2,1.2);
+}
+.social-pop:hover .member-img img{
+    transform: scale(1.2,1.2);
+}
+.clr{
+    clear: both;
+}
+/* End Of Css Team Section */
+/* ------------------------------- */
+.box-info{
+    margin-top: 100px;
+    text-align: center;
+}
+.f{
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+/* ------------------------------- */
+.icon{
+    font-size: 36px;
+    color: tomato;
+}
+.b{
+    margin: auto;
+    display: flex;
+    border-bottom: 2px black solid;
+    width: 50px;
+    position: absolute;
+}
+.cust-3 h2::before{
+    content: 'S';
+    border-bottom: 2px black solid;
+    position: absolute;
+    color: rgba(94, 91, 91, 0.1);
+    width: 60px;
+    font-size: 80px;
+    bottom: -10px;
+    left: 47%;   
+    transition: width 1s;
+} 
+.text-center:hover h2::before{
+    width: 100px;
+}
+/* End Of Css Services Section */
+
+/* .hh{
+    height: 100px;
+}
+.border-x{
+    border-radius: 50%;
+} */
+.carousel img{
+    width: 100%;
+}
+.mb-3 .f{
+    font-size: 2rem;
+ font-weight: 700;
+}
+.b{
+    margin: auto;
+    display: flex;
+    border-bottom: 2px black solid;
+    width: 50px;
+    position: absolute;
+}
+.cust-4 h2::before{
+    content: 'C';
+    border-bottom: 2px black solid;
+    position: absolute;
+    color: rgba(94, 91, 91, 0.1);
+    width: 60px;
+    font-size: 80px;
+    bottom: -10px;
+    left: 47%;   
+    transition: width 1s;
+} 
+.text-center:hover h2::before{
+    width: 100px;
+}
+.b{
+    margin: auto;
+    display: flex;
+    border-bottom: 2px black solid;
+    width: 50px;
+    position: absolute;
+}
+.cust-5 h2::before{
+    content: 'G';
+    border-bottom: 2px black solid;
+    position: absolute;
+    color: rgba(94, 91, 91, 0.1);
+    width: 60px;
+    font-size: 80px;
+    bottom: -10px;
+    left: 47%;   
+    transition: width 1s;
+} 
+.text-center:hover h2::before{
+    width: 100px;
+}
+/* /////********************* */
+.ho:hover
+{
+    color: #f25454 !important;
+}
+#footer
+{
+   
+    background-color: #222;
+}
+.bg-map
+{
+    background-image: url(../images/map-image.png);
+    background-size: contain;
+    opacity: .2;
+}
+.fs-s
+{
+    font-size: 13px;
+}
+.c-info-
+{
+    width: 70%;
+}
+.footer-end
+{
+    background-color: #1a1a1a;
+}
+.text-foot
+{
+    color: #b0b0b0 !important;
+}
+.span:hover
+{
+    color: #f25454 !important;
+}
+.h-ic
+{
+    transition: all .5s;
+}
+.h-ic:hover
+{
+    color: #f25454 !important;
+}
+
